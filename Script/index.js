@@ -37,7 +37,7 @@ currentTime();
 // weather api script
 
 function getWeatherData(location) {
-    const apiKey = "fdd690032c3e735e1a3ea89f42667a0d";
+    const apiKey = "";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${apiKey}`;
     return fetch(url)
       .then(response => response.json())
